@@ -1,0 +1,80 @@
+{
+    "0": {
+        "AngleRepresentation": 1,
+        "CellAttributeMatrixName": "CellData",
+        "CellEnsembleAttributeMatrixName": "CellEnsembleData",
+        "DataContainerName": "ImageDataContainer",
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Import H5EBSD File",
+        "Filter_Name": "ReadH5Ebsd",
+        "Filter_Uuid": "{4ef7f56b-616e-5a80-9e68-1da8f35ad235}",
+        "InputFile": "E:\\Users\\lagon\\The University of Manchester Dropbox\\Laura Gonzalez\\Zr-hydrides\\Lunty polish\\Lunty avec tickle\\Mia analysis Part 1\\Lunty avec tickle_Part 1_100nm.h5ebsd",
+        "RefFrameZDir": 0,
+        "SelectedArrayNames": [
+            "X",
+            "Phases",
+            "BS",
+            "MAD",
+            "Y",
+            "Bands",
+            "BC",
+            "EulerAngles",
+            "Error"
+        ],
+        "UseTransformations": 1,
+        "ZEndIndex": 130,
+        "ZStartIndex": 24
+    },
+    "1": {
+        "CellEulerAnglesArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "EulerAngles",
+            "Data Container Name": "ImageDataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Rotate Euler Reference Frame",
+        "Filter_Name": "RotateEulerRefFrame",
+        "Filter_Uuid": "{ef9420b2-8c46-55f3-8ae4-f53790639de4}",
+        "RotationAngle": 90,
+        "RotationAxis": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "2": {
+        "CellEulerAnglesArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "EulerAngles",
+            "Data Container Name": "ImageDataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Rotate Euler Reference Frame",
+        "Filter_Name": "RotateEulerRefFrame",
+        "Filter_Uuid": "{ef9420b2-8c46-55f3-8ae4-f53790639de4}",
+        "RotationAngle": 90,
+        "RotationAxis": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+        }
+    },
+    "3": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Write DREAM.3D Data File",
+        "Filter_Name": "DataContainerWriter",
+        "Filter_Uuid": "{3fcd4c43-9d75-5b86-aad4-4441bc914f37}",
+        "OutputFile": "E:\\Users\\lagon\\The University of Manchester Dropbox\\Laura Gonzalez\\Zr-hydrides\\Lunty polish\\Lunty avec tickle\\Laura analysis Part 1\\3D microstructure analysis\\1-Recrystallised_rotated.dream3d",
+        "WriteTimeSeries": 0,
+        "WriteXdmfFile": 1
+    },
+    "PipelineBuilder": {
+        "Name": "1-Rotation",
+        "Number_Filters": 4,
+        "Version": 6
+    }
+}
