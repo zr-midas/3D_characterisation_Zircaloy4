@@ -1,5 +1,21 @@
-# 3D_characterisation_Zircaloy4
-Scripts and Dream3d pipelines for the reconstruction and analysis of 3D-EBSD data
+<br />
+<p align="center">
+
+  <h1 align="center">3D characterisation Zircaloy4</h1>
+
+  <p align="center">
+    This repository contains scripts and Dream3d pipelines for the reconstruction and analysis of 3D-EBSD data
+    <br />
+    <a href="https://github.com/zr-midas/Characterising-and-Analysing-Zirconium-Hydrides-in-3D-">Explore the docs</a>
+    .
+    <a href="https://github.com/zr-midas/Characterising-and-Analysing-Zirconium-Hydrides-in-3D-/edit/main/README.md">Read Documentation</a>
+    ·
+    <a href="https://github.com/zr-midas/Characterising-and-Analysing-Zirconium-Hydrides-in-3D-/issues">Report Bug</a>
+    .
+    <a href="https://github.com/zr-midas/Characterising-and-Analysing-Zirconium-Hydrides-in-3D-/blob/main/LICENSE">License</a>
+  </p>
+</p>
+
 
 Pending to add an interactive index here once all the folders are set up
 
