@@ -28,4 +28,7 @@ This folder contains all the scripts and Dream3D pipelines needed for the 3D rec
 
 ## KAM analysis
 
+<img width="324" height="389" alt="image" src="https://github.com/user-attachments/assets/2a3cbec9-5180-4787-a521-5c399466d804" />
+
+
 ## c-axis misorientation
