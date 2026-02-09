@@ -19,6 +19,11 @@
 
 Pending to add an interactive index here once all the folders are set up
 
+## Installation and setup
+
+This project uses [Poetry](https://python-poetry.org/) for dependency management. All required libraries and their versions are defined in the pyproject.toml file.
+
+
 ## Acknowledgements
 * [MIDAS](https://www.zr-midas.org/)
 * [MTex](https://mtex-toolbox.github.io/)
