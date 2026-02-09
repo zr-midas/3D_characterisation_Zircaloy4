@@ -19,7 +19,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>Folders:</summary>
+  <summary>Table of contents:</summary>
   <ol>
     <li><a href="#about-the-project">About the project</a></li>
     <li>
@@ -29,11 +29,23 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#3d-characterisation-tools">3D characterisation tools</a></li>
+      <ul>
+        <li><a href="#3d-ebsd-reconstruction">3D EBSD reconstruction</a></li>
+        <li><a href="#basal-gb-angles">Basal GB angles</a></li>
+        <li><a href="#csl-analysis">CSL analysis</a></li>
+        <li><a href="#kam-analysis">KAM analysis</a></li>
+        <li><a href="#c-axis-misorientation">c-axis misorientation</a></li>
+      </ul>
+    </li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
 ## About the project
+
+This repository supports the methodology described in the paper (doi_link) about characterising hydrides in Zircaloy 4 using 3D-EBSD data and advanced [3D characterisation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation) tools. 
 
 ## Getting started
 
@@ -80,6 +92,22 @@ To see all installed packages run:
    ```sh
    poetry show
    ```
+
+## [3D characterisation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation) tools
+
+### 3D EBSD reconstruction
+
+This folder contains...
+
+### Basal GB angles
+
+The angle between the basal plane and the grain boundary plane wass calculated for the grains forming OR with the hydrides
+
+### CSL analysis
+
+### KAM analysis
+
+### c-axis misorientation
 
 ## Acknowledgements
 * [MIDAS](https://www.zr-midas.org/)
