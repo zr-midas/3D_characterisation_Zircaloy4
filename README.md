@@ -118,3 +118,4 @@ The angle between the basal plane and the grain boundary plane wass calculated f
 * [Matplotlib](https://matplotlib.org/)
 * [h5py](https://www.h5py.org/)
 * [Pandas](https://pandas.pydata.org/)
+* [Scipy](https://scipy.org/)
