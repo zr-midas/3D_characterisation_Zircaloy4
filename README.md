@@ -43,6 +43,10 @@ Poetry will automatically create and activate a virtual environment where all re
 
 4. **Run the scripts**
 
+   ```sh
+   poetry run jupyter notebook
+   ```
+   
 **Notes:**
 
 Do not install dependencies manually with pip. Use always poetry install.
