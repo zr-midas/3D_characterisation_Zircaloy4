@@ -6,13 +6,13 @@
   <p align="center">
     This repository contains scripts and Dream3d pipelines for the reconstruction and analysis of 3D-EBSD data
     <br />
-    <a href="https://github.com/zr-midas/Characterising-and-Analysing-Zirconium-Hydrides-in-3D-">Explore the docs</a>
+    <a href="https://github.com/zr-midas/3D_characterisation_Zircaloy4">Explore the docs</a>
     .
-    <a href="https://github.com/zr-midas/Characterising-and-Analysing-Zirconium-Hydrides-in-3D-/edit/main/README.md">Read Documentation</a>
+    <a href="https://github.com/zr-midas/3D_characterisation_Zircaloy4/blob/main/README.md">Read Documentation</a>
     ·
-    <a href="https://github.com/zr-midas/Characterising-and-Analysing-Zirconium-Hydrides-in-3D-/issues">Report Bug</a>
+    <a href="https://github.com/zr-midas/3D_characterisation_Zircaloy4/issues">Report Bug</a>
     .
-    <a href="https://github.com/zr-midas/Characterising-and-Analysing-Zirconium-Hydrides-in-3D-/blob/main/LICENSE">License</a>
+    <a href="https://github.com/zr-midas/3D_characterisation_Zircaloy4/blob/main/LICENSE">License</a>
   </p>
 </p>
 
