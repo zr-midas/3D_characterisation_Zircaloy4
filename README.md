@@ -24,7 +24,7 @@ Pending to add an interactive index here once all the folders are set up
 This project uses [Poetry](https://python-poetry.org/) for dependency management. All required libraries and their versions are defined in the pyproject.toml file. Poetry can be installed with pip. Further instructions can be found in the [Poetry documentation](https://python-poetry.org/docs/).
 
 
-1. **Poetry installation**
+1. **Prerequisites: Poetry installation**
   ```sh
    pip install poetry
    ```
