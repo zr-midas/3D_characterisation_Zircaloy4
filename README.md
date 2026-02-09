@@ -17,31 +17,51 @@
 </p>
 
 
-Pending to add an interactive index here once all the folders are set up
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Folders:</summary>
+  <ol>
+    <li><a href="#about-the-project">About the project</a></li>
+    <li>
+      <a href="#getting-started">Getting started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-## Installation and setup
+## About the project
+
+## Getting started
 
 This project uses [Poetry](https://python-poetry.org/) for dependency management. All required libraries and their versions are defined in the pyproject.toml file. Poetry can be installed with pip. Further instructions can be found in the [Poetry documentation](https://python-poetry.org/docs/).
 
 
-1. **Prerequisites: Poetry installation**
+### Prerequisites: 
+
+Poetry installation
   ```sh
    pip install poetry
    ```
 
-2. **Clone the reposiroty**
+### Installation:
+
+  1. **Clone the reposiroty**
    ```sh
    git clone https://github.com/zr-midas/3D_characterisation_Zircaloy4.git
    ```
    
-3. **Install dependencies**
+  2. **Install dependencies**
    
-Poetry will automatically create and activate a virtual environment where all required dependencies listed in pyproject.toml are installed:
+Poetry will automatically create and activate a virtual environment where all required dependencies listed in pyproject.toml are installed.
    ```sh
    poetry install
    ```
 
-4. **Run the scripts**
+  3. **Run the scripts**
 
    ```sh
    poetry run jupyter notebook
