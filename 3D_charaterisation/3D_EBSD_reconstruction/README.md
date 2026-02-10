@@ -14,7 +14,7 @@ This repository contains the pipelines used to process 3D-EBSD Zr microstructure
 
 ## Requirements:
 
-- EBSD maps with the format .ctf saved in a single folder
+- EBSD maps with the format .ctf and located in the same folder
 
 ## Files exported:
 
@@ -34,4 +34,7 @@ with h5py.File(fine_name, "r"):
 ```
 
 
-These pipelines also export .xdmf files that can be opened in [Paraview](https://www.paraview.org/) to visualise the reconstructed microstructures in 3D.
+These pipelines also export .xdmf files that can be opened in [Paraview](https://www.paraview.org/) to visualise the reconstructed microstructures in 3D:
+
+
+<img width="621" height="430" alt="image" src="https://github.com/user-attachments/assets/c2d7270c-7c79-4920-a363-f1e4e6de55d8" />
