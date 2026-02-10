@@ -95,13 +95,16 @@ To see all installed packages run:
 
 ## [3D characterisation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation) tools
 
+This folder contains all the workflows developed for the 3D reconstruction and analysis of 3D-EBSD data:
+
 ### [3D EBSD reconstruction](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/3D_EBSD_reconstruction)
 
-This project uses [Dream.3D](https://www.dream3d.io/) to perform 3D reconstruction of 3D-EBSD data. This folder contains the pipelines developed for the 3D reconstruction. 
+This project uses [Dream.3D](https://www.dream3d.io/) to perform 3D reconstruction of 3D-EBSD data and obtain 3D microstructures that display the 3D morphology of alpha-Zr grains and hydrides. 
+The Dream.3D pipelines developed for the 3D reconstruction can be found in this folder. 
 
 ### [Basal GB angles](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/Basal_GB_angles)
 
-The angle between the basal plane and the grain boundary plane wass calculated for the grains forming OR with the hydrides
+The angle between the basal plane and the grain boundary plane was calculated for grains forming an orientation relationship (OR) with hydrides. Previous studies have reported that these angles fall within specific ranges. Investigating the relationship between these angles and preferential hydride precipitation may improve our understanding of hydride precipitation in Zr alloys.
 
 ### [CSL analysis](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/CSL_analysis)
 
