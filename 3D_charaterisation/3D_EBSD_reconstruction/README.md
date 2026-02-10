@@ -16,7 +16,7 @@ EBSD maps with the format .ctf
 
 ## Files exported:
 
-Hierarquical files with extension .dream3d that can be access with tools like HDFview software or in python with:
+Hierarquical files with extension .dream3d that can be access with tools like [HDFview](https://www.hdfgroup.org/download-hdfview/) software or using the [h5py](https://docs.h5py.org/en/stable/) library in Python as follows:
 
 ```
 import h5py
@@ -32,4 +32,4 @@ with h5py.File(fine_name, "r"):
 ```
 
 
-These pipelines also export .xdmf files that can be opened in Paraview to visualise the reconstructed microstructures in 3D.
+These pipelines also export .xdmf files that can be opened in [Paraview](https://www.paraview.org/) to visualise the reconstructed microstructures in 3D.
