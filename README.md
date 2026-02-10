@@ -56,7 +56,6 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 
 - Dream.3D
 - Python >=3.13 (version requirement in `pyproject.toml`)
-- Poetry
   
 ### Poetry installation:
   ```sh
