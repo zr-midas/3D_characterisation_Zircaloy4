@@ -45,7 +45,7 @@
 
 ## About the project
 
-This repository supports the methodology described in the paper (doi_link) about characterising hydrides in Zircaloy 4 using 3D-EBSD data and advanced [3D characterisation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation) tools. 
+This repository supports the methodology described in the paper (doi_link) for characterising hydrides in Zircaloy-4 using 3D-EBSD data and advanced [3D characterisation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation) tools. 
 
 ## Getting started
 
@@ -119,6 +119,9 @@ The kernel average misorientation (KAM) is a measure of local crystallographic m
 ### [c-axis misorientation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/c-axis_misorientation)
 
 ## Acknowledgements
+
+The authors acknowledge funding from the Engineering and Physical Sciences Research Council UK for funding the study through the MIDAS (Mechanistic understanding of Irradiation Damage in fuel Assemblies) programme grant (EP/S01702X/1). Rolls-Royce plc and Amentum are acknowledged for the provision of materials and financial support. The authors acknowledge the Royce Institute for Advanced Materials, funded through EPSRC grants EP/R00661X/1, EP/S019367/1, EP/P025021/1 and EP/P025498/1 for supporting aspects of this research.
+
 * [MIDAS](https://www.zr-midas.org/)
 * [MTex](https://mtex-toolbox.github.io/)
 * [Dream.3D](https://www.dream3d.io/blog/)
