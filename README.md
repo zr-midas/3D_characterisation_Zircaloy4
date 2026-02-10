@@ -107,6 +107,8 @@ The angle between the basal plane and the grain boundary plane wass calculated f
 
 ### [KAM analysis](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/KAM_analysis)
 
+<img width="324" height="389" alt="image" src="https://github.com/user-attachments/assets/2a3cbec9-5180-4787-a521-5c399466d804" />
+
 ### [c-axis misorientation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/c-axis_misorientation)
 
 ## Acknowledgements
