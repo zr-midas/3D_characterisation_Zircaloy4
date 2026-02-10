@@ -54,14 +54,18 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 
 ### Prerequisites: 
 
-Poetry installation
+- Dream.3D
+- Python >=3.13 (version requirement in `pyproject.toml`)
+- Poetry
+  
+### Poetry installation:
   ```sh
    pip install poetry
    ```
 
-### Installation:
+### Packages installation:
 
-  1. **Clone the reposiroty**
+  1. **Clone the repository**
    ```sh
    git clone https://github.com/zr-midas/3D_characterisation_Zircaloy4.git
    ```
@@ -81,8 +85,14 @@ Poetry will automatically create and activate a virtual environment where all re
    
 **Notes:**
 
-Do not install dependencies manually with pip. Use always poetry install.
+Do not install dependencies manually with pip. Always use poetry install.
 
+If you have more than one version of python, run:
+
+   ```sh
+    poetry env use python3.13
+    poetry install
+   ```
 If you encounter dependency issues, try:
 
    ```sh
