@@ -1,0 +1,36 @@
+{
+    "0": {
+        "EulerTransformation": {
+            "angle": 0,
+            "h": 0,
+            "k": 0,
+            "l": 1
+        },
+        "FileExtension": "ctf",
+        "FilePrefix": "LBwT_ ",
+        "FileSuffix": "",
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Import Orientation File(s) to H5EBSD",
+        "Filter_Name": "EbsdToH5Ebsd",
+        "Filter_Uuid": "{6e332fca-0475-5fec-821e-e01f668ec1d3}",
+        "InputPath": "C:\\Users\\lagon\\DREAM3D-6.5.171-Win64\\Path\\where\\the\\ctf\\files\\are\\located",
+        "OutputFile": "C:\\Users\\lagon\\DREAM3D-6.5.171-Win64\\Path\\where\\you\\want\\to\\export\\your\\files\\Name_wanted_for_the_file.h5ebsd",
+        "PaddingDigits": 2,
+        "RefFrameZDir": 0,
+        "SampleTransformation": {
+            "angle": 0,
+            "h": 0,
+            "k": 0,
+            "l": 1
+        },
+        "ZEndIndex": "130",
+        "ZResolution": 0.10000000149011612,
+        "ZStartIndex": "24"
+    },
+    "PipelineBuilder": {
+        "Name": "0-Import_ctfs",
+        "Number_Filters": 1,
+        "Version": 6
+    }
+}
