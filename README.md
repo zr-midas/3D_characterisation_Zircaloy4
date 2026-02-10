@@ -105,6 +105,8 @@ The angle between the basal plane and the grain boundary plane wass calculated f
 
 ### [CSL analysis](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/CSL_analysis)
 
+The coincident site lattice (CSL) analysis was used to identify the boundaries between different variants in the hydrides.
+
 <img width="466" height="197" alt="image" src="https://github.com/user-attachments/assets/7700fe1b-d45e-44ec-b0d1-cdbf5663bc7a" />
 
 
