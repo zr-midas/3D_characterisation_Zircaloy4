@@ -97,7 +97,7 @@ To see all installed packages run:
 
 ### [3D EBSD reconstruction](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/3D_EBSD_reconstruction)
 
-This folder contains...
+This project uses [Dream.3D](https://www.dream3d.io/) to perform 3D reconstruction of 3D-EBSD data. This folder contains the pipelines developed for the 3D reconstruction. 
 
 ### [Basal GB angles](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/Basal_GB_angles)
 
