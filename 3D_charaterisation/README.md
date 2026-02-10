@@ -20,15 +20,12 @@ This folder contains all the scripts and Dream3D pipelines needed for the 3D rec
 </details>
 
 
-## 3D EBSD reconstruction
+## [3D EBSD reconstruction](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/3D_EBSD_reconstruction)
 
-## Basal GB angles
+## [Basal GB angles](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/Basal_GB_angles)
 
-## CSL analysis
+## [CSL analysis](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/CSL_analysis)
 
-## KAM analysis
+## [KAM analysis](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/KAM_analysis)
 
-<img width="324" height="389" alt="image" src="https://github.com/user-attachments/assets/2a3cbec9-5180-4787-a521-5c399466d804" />
-
-
-## c-axis misorientation
+## [c-axis misorientation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation/c-axis_misorientation)
