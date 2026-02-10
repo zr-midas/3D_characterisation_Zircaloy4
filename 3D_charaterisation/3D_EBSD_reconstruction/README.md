@@ -1,18 +1,20 @@
 # 3D-EBSD reconstruction 
 
-This repository contains the pipelines to process 3D-EBSD Zr microstructures:
+This repository contains the pipelines used to process 3D-EBSD Zr microstructures using [Dream.3D](https://www.dream3d.io/).
 
-0– Import_ctfs pipeline imports the EBSD maps acquired from each slice of the 3D-EBSD experiment and combines them into a single file containing all the data.
+## Processing pipelines:
 
-1- Rotations pipeline applies the necessary rotation of the crystal orientations so the euler space matches the sample reference frame.
-
-2- Alignment pipeline contains the alignment method for the studied 3D microstructures. Alignment based on a misorientation threshold of 5 was used.
-
-3- Cleaning pipeline was used to remove voxels in blank and noise in Zr phase (isolated voxels across the microstructure). The isolated hydride voxels were not removed, as they are more likely associated with poor hydride indexing rather than noise, and their removal could interfere with the quantitative analysis of hydrides.
+  0. Import_ctfs pipeline imports the EBSD maps acquired from each slice of the 3D-EBSD experiment and combines them into a single file containing all the data.
+     
+  2. Rotations pipeline applies the necessary rotation of the crystal orientations so the euler space matches the sample reference frame.
+     
+  4. Alignment pipeline contains the alignment method for the studied 3D microstructures. Alignment based on a misorientation threshold of 5 was used.
+    
+  6. Cleaning pipeline was used to remove voxels in blank and noise in Zr phase (isolated voxels across the microstructure). The isolated hydride voxels were not removed, as they are more likely associated with poor hydride indexing rather than noise, and their removal could interfere with the quantitative analysis of hydrides.
 
 ## Requirements:
 
-EBSD maps with the format .ctf
+- EBSD maps with the format .ctf saved in a single folder
 
 ## Files exported:
 
