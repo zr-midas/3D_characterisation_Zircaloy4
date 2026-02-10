@@ -1,6 +1,6 @@
 # 3D-EBSD reconstruction 
 
-This repository contains the pipelines used to process 3D-EBSD Zr microstructures using [Dream.3D](https://www.dream3d.io/).
+This folder contains the pipelines used to process 3D-EBSD Zr microstructures using [Dream.3D](https://www.dream3d.io/).
 
 ## Processing pipelines:
 
