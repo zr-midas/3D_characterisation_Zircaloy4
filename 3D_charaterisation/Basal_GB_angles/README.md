@@ -17,5 +17,6 @@ This folder contains:
 ## Manual fitting in Paraview:
 
 The plane fitting at the grain boundaries where hydrides precipitated was done manually in Paraview:
+
 <img width="940" height="483" alt="image" src="https://github.com/user-attachments/assets/1321ce2f-e480-4671-b8e1-170f5f6f33ad" />
 
