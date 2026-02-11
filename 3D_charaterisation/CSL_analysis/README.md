@@ -2,9 +2,9 @@
 
 This repository contains a Dream.3D pipeline to identify the CSL boundaries in the hydrides phase. 
 
-## Processing pipeline:
-
 ## Input files:
+
+Dream3D file with the reconstructed 3D-EBSD data.
 
 ## Exported files:
 
