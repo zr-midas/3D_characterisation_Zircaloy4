@@ -10,7 +10,7 @@
     .
     <a href="https://github.com/zr-midas/3D_characterisation_Zircaloy4/blob/main/README.md">Read Documentation</a>
     ·
-    <a href="https://github.com/zr-midas/3D_characterisation_Zircaloy4/issues">Report Bug</a>
+    <a href="https://github.com/zr-midas/3D_characterisation_Zircaloy4/issues">Report errors</a>
     .
     <a href="https://github.com/zr-midas/3D_characterisation_Zircaloy4/blob/main/LICENSE">License</a>
   </p>
