@@ -9,18 +9,9 @@
         "Filter_Human_Label": "Import H5EBSD File",
         "Filter_Name": "ReadH5Ebsd",
         "Filter_Uuid": "{4ef7f56b-616e-5a80-9e68-1da8f35ad235}",
-        "InputFile": "E:\\Users\\lagon\\The University of Manchester Dropbox\\Laura Gonzalez\\Zr-hydrides\\Lunty polish\\Lunty avec tickle\\Mia analysis Part 1\\Lunty avec tickle_Part 1_100nm.h5ebsd",
+        "InputFile": "C:\\Users\\Laura\\Documents\\DREAM3D-6.5.171-Win64\\Path\\where\\the\\h5\\file\\is\\saved\\Name_wanted_for_the_file.h5ebsd",
         "RefFrameZDir": 0,
         "SelectedArrayNames": [
-            "X",
-            "Phases",
-            "BS",
-            "MAD",
-            "Y",
-            "Bands",
-            "BC",
-            "EulerAngles",
-            "Error"
         ],
         "UseTransformations": 1,
         "ZEndIndex": 130,
@@ -68,7 +59,7 @@
         "Filter_Human_Label": "Write DREAM.3D Data File",
         "Filter_Name": "DataContainerWriter",
         "Filter_Uuid": "{3fcd4c43-9d75-5b86-aad4-4441bc914f37}",
-        "OutputFile": "E:\\Users\\lagon\\The University of Manchester Dropbox\\Laura Gonzalez\\Zr-hydrides\\Lunty polish\\Lunty avec tickle\\Laura analysis Part 1\\3D microstructure analysis\\1-Recrystallised_rotated.dream3d",
+        "OutputFile": "C:\\Users\\Laura\\Documents\\DREAM3D-6.5.171-Win64\\Path\\where\\you\\want\\to\\export\\your\\dream3d\\file\\1-Recrystallised_rotated.dream3d",
         "WriteTimeSeries": 0,
         "WriteXdmfFile": 1
     },

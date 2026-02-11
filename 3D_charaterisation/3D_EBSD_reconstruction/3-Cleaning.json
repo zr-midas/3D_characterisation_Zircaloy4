@@ -5,249 +5,9 @@
         "Filter_Human_Label": "Read DREAM.3D Data File",
         "Filter_Name": "DataContainerReader",
         "Filter_Uuid": "{043cbde5-3878-5718-958f-ae75714df0df}",
-        "InputFile": "E:\\Users\\lagon\\The University of Manchester Dropbox\\Laura Gonzalez\\Zr-hydrides\\Lunty polish\\Lunty avec tickle\\Laura analysis Part 1\\3D microstructure analysis\\2-Recrystallised_aligned.dream3d",
+        "InputFile": "C:\\Users\\Laura\\Documents\\DREAM3D-6.5.171-Win64\\Path\\where\\you\\exported\\your\\dream3d\\file\\2-Recrystallised_aligned.dream3d",
         "InputFileDataContainerArrayProxy": {
             "Data Containers": [
-                {
-                    "Attribute Matricies": [
-                        {
-                            "Data Arrays": [
-                                {
-                                    "Component Dimensions": [
-                                        1
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "BC",
-                                    "Object Type": "DataArray<int32_t>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        1
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "BS",
-                                    "Object Type": "DataArray<int32_t>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        1
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "Bands",
-                                    "Object Type": "DataArray<int32_t>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        1
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "Error",
-                                    "Object Type": "DataArray<int32_t>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        3
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "EulerAngles",
-                                    "Object Type": "DataArray<float>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        3
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "IPFColor",
-                                    "Object Type": "DataArray<uint8_t>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        1
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "MAD",
-                                    "Object Type": "DataArray<float>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        1
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "Mask",
-                                    "Object Type": "DataArray<bool>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        1
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "Phases",
-                                    "Object Type": "DataArray<int32_t>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        4
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "Quats",
-                                    "Object Type": "DataArray<float>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        1
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "X",
-                                    "Object Type": "DataArray<float>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        1
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "Y",
-                                    "Object Type": "DataArray<float>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellData",
-                                    "Tuple Dimensions": [
-                                        1750,
-                                        800,
-                                        107
-                                    ],
-                                    "Version": 2
-                                }
-                            ],
-                            "Flag": 2,
-                            "Name": "CellData",
-                            "Type": 3
-                        },
-                        {
-                            "Data Arrays": [
-                                {
-                                    "Component Dimensions": [
-                                        1
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "CrystalStructures",
-                                    "Object Type": "DataArray<uint32_t>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellEnsembleData",
-                                    "Tuple Dimensions": [
-                                        3
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        6
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "LatticeConstants",
-                                    "Object Type": "DataArray<float>",
-                                    "Path": "/DataContainers/ImageDataContainer/CellEnsembleData",
-                                    "Tuple Dimensions": [
-                                        3
-                                    ],
-                                    "Version": 2
-                                },
-                                {
-                                    "Component Dimensions": [
-                                        1
-                                    ],
-                                    "Flag": 2,
-                                    "Name": "MaterialName",
-                                    "Object Type": "StringDataArray",
-                                    "Path": "/DataContainers/ImageDataContainer/CellEnsembleData",
-                                    "Tuple Dimensions": [
-                                        3
-                                    ],
-                                    "Version": 2
-                                }
-                            ],
-                            "Flag": 2,
-                            "Name": "CellEnsembleData",
-                            "Type": 11
-                        }
-                    ],
-                    "Flag": 2,
-                    "Name": "ImageDataContainer",
-                    "Type": 0
-                }
             ]
         },
         "OverwriteExistingDataContainers": 0
@@ -305,9 +65,9 @@
         "Filter_Human_Label": "Crop Geometry (Image)",
         "Filter_Name": "CropImageGeometry",
         "Filter_Uuid": "{baa4b7fe-31e5-5e63-a2cb-0bb9d844cfaf}",
-        "NewBoxDimensions": "X Range: 0 to 102.6 (Delta: 102.6) 0-1709 Voxels\nY Range: 0 to 45.6 (Delta: 45.6) 0-759 Voxels\nZ Range: 0 to 10.7 (Delta: 10.7) 0-106 Voxels\n",
+        "NewBoxDimensions": "Please select a Data Container that has an Image Geometry",
         "NewDataContainerName": "NewImageDataContainer",
-        "OldBoxDimensions": "X Range: 0 to 105 (Delta: 105) 0-1749 Voxels\nY Range: 0 to 48 (Delta: 48) 0-799 Voxels\nZ Range: 0 to 10.7 (Delta: 10.7) 0-106 Voxels\n",
+        "OldBoxDimensions": "Please select a Data Container that has an Image Geometry",
         "RenumberFeatures": 1,
         "SaveAsNewDataContainer": 0,
         "UpdateOrigin": 0,
@@ -415,7 +175,7 @@
         "Filter_Human_Label": "Write DREAM.3D Data File",
         "Filter_Name": "DataContainerWriter",
         "Filter_Uuid": "{3fcd4c43-9d75-5b86-aad4-4441bc914f37}",
-        "OutputFile": "E:/Users/lagon/The University of Manchester Dropbox/Laura Gonzalez/Zr-hydrides/Lunty polish/Lunty avec tickle/Laura analysis Part 1/3D microstructure analysis/3-Recrystallised_rotated_aligned_cleaned.dream3d",
+        "OutputFile": "C:\\Users\\Laura\\Documents\\DREAM3D-6.5.171-Win64\\Path\\where\\you\\want\\to\\export\\your\\dream3d\\file\\3-Recrystallised_rotated_aligned_cleaned.dream3d",
         "WriteTimeSeries": 0,
         "WriteXdmfFile": 1
     },
