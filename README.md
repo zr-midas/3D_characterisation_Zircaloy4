@@ -22,13 +22,8 @@
   <summary>Table of contents:</summary>
   <ol>
     <li><a href="#about-the-project">About the project</a></li>
-    <li>
-      <a href="#prerequisites">Prerequisites</a>
-      <ul>
-        <li><a href="#poetry-installation">Poetry installation</a></li>
-        <li><a href="#packages-installation">Packages installation</a></li>
-      </ul>
-    </li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#getting-started">Getting started</a></li>
     <li>
       <a href="#3d-characterisation-tools">3D characterisation tools</a></li>
       <ul>
@@ -47,14 +42,14 @@
 
 This repository supports the methodology described in the paper (doi_link) for characterising hydrides in Zircaloy-4 using 3D-EBSD data and advanced [3D characterisation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation) tools. 
 
-## Prerequisites: 
+## Prerequisites
 
 This repository contain Dream.3D pipelines that can be open with Dream.3D software and Jupyter Notebook scripts to be run with Python: 
 
 - Dream.3D version 6 --> https://dream3d.bluequartz.net/Download/
 - Python >=3.13 (version requirement in `pyproject.toml`)
   
-### Poetry installation:
+>### Poetry installation:
 
 This project uses [Poetry](https://python-poetry.org/) for dependency management. All required libraries and their versions are defined in the pyproject.toml file. Poetry can be installed with pip. Further instructions can be found in the [Poetry documentation](https://python-poetry.org/docs/).
 
@@ -62,19 +57,33 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
    pip install poetry
    ```
 
-### Packages installation:
+## Getting started
 
   1. **Clone the repository**
+     
    ```sh
    git clone https://github.com/zr-midas/3D_characterisation_Zircaloy4.git
    ```
    
   2. **Install dependencies**
    
-Poetry will automatically create and activate a virtual environment where all required dependencies listed in pyproject.toml are installed.
+> Option A: Poetry will automatically create and activate a virtual environment where all required dependencies listed in pyproject.toml are installed.
+
    ```sh
    poetry install
    ```
+If you have more than one version of python, run:
+
+   ```sh
+    poetry env use python3.13
+    poetry install
+   ```
+
+> Option B: Or you can install the dependencies with pip:
+
+  ```sh
+  pip install -r requirements.txt
+  ```
 
   3. **Run the scripts**
 
@@ -82,25 +91,6 @@ Poetry will automatically create and activate a virtual environment where all re
    poetry run jupyter notebook
    ```
    
-**Notes:**
-
-Do not install dependencies manually with pip. Always use poetry install.
-
-If you have more than one version of python, run:
-
-   ```sh
-    poetry env use python3.13
-    poetry install
-   ```
-If you encounter dependency issues, try:
-
-   ```sh
-   poetry update
-   ```
-To see all installed packages run:
-   ```sh
-   poetry show
-   ```
 
 ## [3D characterisation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation) tools
 
