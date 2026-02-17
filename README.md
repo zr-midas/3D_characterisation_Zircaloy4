@@ -57,7 +57,9 @@ This repository contain Dream.3D pipelines that can be open with Dream.3D softwa
   
 >### Poetry installation:
 
-This project uses [Poetry](https://python-poetry.org/) for dependency management. All required libraries and their versions are defined in the pyproject.toml file. Poetry can be installed with pip. Further instructions can be found in the [Poetry documentation](https://python-poetry.org/docs/).
+This project uses [Poetry](https://python-poetry.org/) for dependency management. Poetry automatically creates and manages a virtual environment for the project and installs all required dependencies defined in pyproject.toml and locked in poetry.lock. 
+
+Poetry can be installed with pip. Further instructions can be found in the [Poetry documentation](https://python-poetry.org/docs/).
 
   ```sh
    pip install poetry
@@ -85,7 +87,7 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
         poetry install
        ```
 
-        > Option B: Or you can install the dependencies with pip:
+        > Option B: Or you can crate an environment and install the dependencies with pip:
 
       ```sh
       pip install -r requirements.txt
