@@ -4,7 +4,7 @@
   <h1 align="center">3D characterisation Zircaloy4</h1>
 
   <p align="center">
-    This repository contains scripts and Dream3d pipelines for the reconstruction and analysis of 3D-EBSD data
+    This repository contains scripts and Dream3d pipelines for the reconstruction and analysis of 3D-EBSD data. It supports the methodology described in the paper (doi_link) for characterising hydrides in Zircaloy-4 using 3D-EBSD data and advanced [3D characterisation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation) tools. 
     <br />
     <a href="https://github.com/zr-midas/3D_characterisation_Zircaloy4">Explore the docs</a>
     .
@@ -46,7 +46,7 @@ https://github.com/user-attachments/assets/251b5cf7-d6f7-4e80-a917-f5a57ec66cf3
 
 ## About the project
 
-This repository supports the methodology described in the paper (doi_link) for characterising hydrides in Zircaloy-4 using 3D-EBSD data and advanced [3D characterisation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation) tools. 
+Hydride precipitation in zirconium alloys is an inherently three-dimensional process; however, much of the current mechanistic understanding is derived from two-dimensional observations that cannot capture true hydride morphology, connectivity, or the associated strain fields. In this work, we present the first three-dimensional EBSD dataset of the zirconium–hydride system, enabling full volumetric reconstruction of hydrides, grain boundaries, and the surrounding zirconium matrix. The analysis reveals that all hydride packets either form at or are connected to grain boundaries, even when they appear intragranular in two-dimensional sections, resolving a longstanding ambiguity in hydride classification. Hydrides exhibit complex, curved geometries and contain 3 variant boundaries whose presence and spatial distribution cannot be reliably identified from individual slices. Localised kernel average misorientation within both the zirconium matrix and the hydride phase demonstrates that plastic strain localises preferentially in the zirconium grain that shares an orientation relationship with the hydride. Intense, localised KAM hotspots consistently precede hydride variant formation, suggesting that these transitions may be driven by strain within the matrix rather than within the hydride itself. This study further highlights the need for caution when correlating grain boundary character with hydride precipitation behaviour, as the true three-dimensional boundary morphology and connectivity cannot be inferred from a single two-dimensional section. Together, these findings establish 3D-EBSD as a critical tool for accurately interpreting hydride precipitation mechanisms and for underpinning experimentally informed modelling of hydride behaviour in zirconium alloys.
 
 ## Prerequisites
 
@@ -73,23 +73,23 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
    
   2. **Install dependencies**
    
-> Option A: Poetry will automatically create and activate a virtual environment where all required dependencies listed in pyproject.toml are installed.
+      > Option A: Poetry will automatically create and activate a virtual environment where all required dependencies listed in pyproject.toml are installed.
 
-   ```sh
-   poetry install
-   ```
-If you have more than one version of python, run:
+     ```sh
+     poetry install
+     ```
+       > If you have more than one version of python, run:
 
-   ```sh
-    poetry env use python3.13
-    poetry install
-   ```
+       ```sh
+        poetry env use python3.13
+        poetry install
+       ```
 
-> Option B: Or you can install the dependencies with pip:
+        > Option B: Or you can install the dependencies with pip:
 
-  ```sh
-  pip install -r requirements.txt
-  ```
+      ```sh
+      pip install -r requirements.txt
+      ```
 
   3. **Run the scripts**
 
