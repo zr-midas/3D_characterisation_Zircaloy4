@@ -4,7 +4,7 @@
   <h1 align="center">3D characterisation Zircaloy4</h1>
 
   <p align="center">
-    This repository contains scripts and Dream3d pipelines for the reconstruction and analysis of 3D-EBSD data. It supports the methodology described in the paper (doi_link) for characterising hydrides in Zircaloy-4 using 3D-EBSD data and advanced [3D characterisation](https://github.com/zr-midas/3D_characterisation_Zircaloy4/tree/main/3D_charaterisation) tools. 
+    This repository contains scripts and Dream3d pipelines for the reconstruction and analysis of 3D-EBSD data. It supports the methodology described in the paper (doi_link) for characterising hydrides in Zircaloy-4 using 3D-EBSD data and advanced 3D characterisation tools.
     <br />
     <a href="https://github.com/zr-midas/3D_characterisation_Zircaloy4">Explore the docs</a>
     .
