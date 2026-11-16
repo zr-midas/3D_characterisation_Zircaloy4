@@ -1,0 +1,78 @@
+{
+    "0": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Read DREAM.3D Data File",
+        "Filter_Name": "DataContainerReader",
+        "Filter_Uuid": "{043cbde5-3878-5718-958f-ae75714df0df}",
+        "InputFile": "E:\\Users\\lagon\\The University of Manchester Dropbox\\Laura Gonzalez\\Zr-hydrides\\Lunty polish\\Lunty avec tickle\\Laura analysis Part 1\\3D microstructure analysis\\3-Recrystallised_rotated_aligned_cleaned.dream3d",
+        "InputFileDataContainerArrayProxy": {
+            "Data Containers": [
+            ]
+        },
+        "OverwriteExistingDataContainers": 0
+    },
+    "1": {
+        "BoundaryCellsArrayName": "BoundaryCells",
+        "FeatureIdsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "FeatureIds",
+            "Data Container Name": "ImageDataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Find Boundary Cells (Image)",
+        "Filter_Name": "FindBoundaryCells",
+        "Filter_Uuid": "{8a1106d4-c67f-5e09-a02a-b2e9b99d031e}",
+        "IgnoreFeatureZero": 1,
+        "IncludeVolumeBoundary": 0
+    },
+    "2": {
+        "CellPhasesArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "Phases",
+            "Data Container Name": "ImageDataContainer"
+        },
+        "CrystalStructuresArrayPath": {
+            "Attribute Matrix Name": "CellEnsembleData",
+            "Data Array Name": "CrystalStructures",
+            "Data Container Name": "ImageDataContainer"
+        },
+        "FeatureIdsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "FeatureIds",
+            "Data Container Name": "ImageDataContainer"
+        },
+        "FilterVersion": "6.5.171",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Find Kernel Average Misorientations",
+        "Filter_Name": "FindKernelAvgMisorientations",
+        "Filter_Uuid": "{88d332c1-cf6c-52d3-a38d-22f6eae19fa6}",
+        "KernelAverageMisorientationsArrayName": "KAM",
+        "KernelSize": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        },
+        "QuatsArrayPath": {
+            "Attribute Matrix Name": "CellData",
+            "Data Array Name": "Quats",
+            "Data Container Name": "ImageDataContainer"
+        }
+    },
+    "3": {
+        "FilterVersion": "1.2.828",
+        "Filter_Enabled": true,
+        "Filter_Human_Label": "Write DREAM.3D Data File",
+        "Filter_Name": "DataContainerWriter",
+        "Filter_Uuid": "{3fcd4c43-9d75-5b86-aad4-4441bc914f37}",
+        "OutputFile": "E:/Users/lagon/The University of Manchester Dropbox/Laura Gonzalez/Zr-hydrides/Lunty polish/Lunty avec tickle/Laura analysis Part 1/3D microstructure analysis/4-Recrystallised_rotated_aligned_cleaned_KAM.dream3d",
+        "WriteTimeSeries": 0,
+        "WriteXdmfFile": 1
+    },
+    "PipelineBuilder": {
+        "Name": "KAM",
+        "Number_Filters": 4,
+        "Version": 6
+    }
+}
